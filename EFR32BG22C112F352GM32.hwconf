@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="EFR32BG22C112F352GM32" partId="mcu.arm.efr32.bg22.efr32bg22c112f352gm32" contextId="com.silabs.sdk.stack.super:2.7.9._1265011390">
+  <mode name="DefaultMode">
+    <property object="CMU" propertyId="ABPeripheral.included" value="true"/>
+    <property object="DCDC" propertyId="ABPeripheral.included" value="true"/>
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="EMU" propertyId="ABPeripheral.included" value="true"/>
+    <property object="GPIO" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PORTIO" propertyId="portio.gpio.enable.swclk" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.gpio.enable.swdio" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.usart0_rxloc" value="48"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.usart0_txloc" value="49"/>
+    <property object="SERIAL" propertyId="ABPeripheral.included" value="true"/>
+    <property object="SPINCP" propertyId="ABPeripheral.included" value="true"/>
+    <property object="TIMER0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="TIMER1" propertyId="ABPeripheral.included" value="true"/>
+    <property object="TIMER2" propertyId="ABPeripheral.included" value="true"/>
+    <property object="TIMER3" propertyId="ABPeripheral.included" value="true"/>
+    <property object="TIMER4" propertyId="ABPeripheral.included" value="true"/>
+    <property object="UARTNCP" propertyId="ABPeripheral.included" value="true"/>
+    <property object="USART0" propertyId="USART.BSP_USART_CLK.PIN" value="PA00"/>
+    <property object="USART0" propertyId="USART.BSP_USART_CS.PIN" value="PA00"/>
+    <property object="USART0" propertyId="USART.BSP_USART_CTS.PIN" value="PA00"/>
+    <property object="USART0" propertyId="USART.BSP_USART_MISO.PIN" value="PD00"/>
+    <property object="USART0" propertyId="USART.BSP_USART_MOSI.PIN" value="PD01"/>
+    <property object="USART0" propertyId="USART.BSP_USART_RTS.PIN" value="PA00"/>
+    <property object="USART0" propertyId="USART.BSP_USART_RX.PIN" value="PD00"/>
+    <property object="USART0" propertyId="USART.BSP_USART_TX.PIN" value="PD01"/>
+    <property object="USART1" propertyId="USART.BSP_USART_MISO.PIN" value="PA00"/>
+    <property object="USART1" propertyId="USART.BSP_USART_MOSI.PIN" value="PA00"/>
+    <property object="USART1" propertyId="USART.BSP_USART_RX.PIN" value="PA00"/>
+    <property object="USART1" propertyId="USART.BSP_USART_TX.PIN" value="PA00"/>
+    <property object="VCOM" propertyId="ABPeripheral.included" value="true"/>
+    <property object="VUART" propertyId="ABPeripheral.included" value="true"/>
+    <property object="WDOG" propertyId="ABPeripheral.included" value="true"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>
